@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        objects
+    </title>
+</head>
+
+<body>
+    <p id="MY">
+        Javascript.
+    </p>
+    <p>
+        speed<input id="speed" type="number"><button onclick="checkSep()">check</button>
+    </p>
+    <script>
+        var speed = 50;
+
+        function checkSep() {
+
+            var speed = document.getElementById("speed").value;
+
+            if (speed == 1)
+                window.alert("slow");
+            else
+                window.alert("ok");
+        }
+        checkSep();
+    </script>
+</body>
+
+</html>

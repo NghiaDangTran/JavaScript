@@ -1,0 +1,28 @@
+Java scipt basic https://scrimba.com/learn/learnjavascript#
+java scri[t deep dive https://scrimba.com/learn/javascript#
+es6
+Asynchronous 
+Code Tetris
+Shopping Cart from Scratch
+huffman tree encoding
+https://www.youtube.com/watch?v=EfAl9bwzVZk&ab_channel=DaveGray
+
+
+
+
+
+Code Tetris: JavaScript Tutorial for Beginners
+Asynchronous JavaScript Course (Async/Await, Promises, Callbacks)
+Dropbox API / JavaScript ES6 Tutorial - Expense Organizer
+E-Commerce JavaScript Tutorial - Shopping Cart from Scratch
+JavaScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours
+
+
+
+javascript learn material: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+js general review: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
+learn path https://fullstack.edu.vn/courses/javascript-nang-cao
+ https://fullstack.edu.vn/courses/javascript-co-ban
+
+free codecamp es6 and practice using it 
+https://www.youtube.com/watch?v=TsTr-tKCREc&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=63&ab_channel=F8Official

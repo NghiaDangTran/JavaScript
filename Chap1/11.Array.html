@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        objects
+    </title>
+</head>
+
+<body>
+    <p id="MY">
+        Javascript.
+    </p>
+    <script>
+        var shopiinglist = new Array("asd", "213", 4312);
+        document.getElementById("MY").innerHTML = "<br/>" + shopiinglist;
+
+        function print(x) {
+            document.getElementById("MY").innerHTML = "<br />" + x;
+        }
+        //document.getElementById("MY").innerHTML = "<br/>" + shopiinglist[shopiinglist.length - 1];
+
+        shopiinglist.splice(1, 0, 9, 8);
+        print(shopiinglist);
+        print(shopiinglist);
+    </script>
+</body>
+
+</html>

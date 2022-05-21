@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        objects
+    </title>
+</head>
+
+<body>
+
+    <p> your pass....</p>
+
+    <p>ENTER<input id="pass" type="password"></p>
+    <p>REENTER<input id="pass2" type="password"></p>
+    <p id="error"></p>
+
+
+
+
+    <button onclick="check()">Try it</button>
+    <script>
+        // try {
+        //     sum(3, 4);
+        // } catch (err) {
+        //     document.getElementById("error").innerHTML = err.message;
+        // }
+
+
+        function hasNumber(myString) {
+            return /\d/.test(myString);
+        }
+
+        function Cappital(myString) {
+            return /[A-Z]/.test(myString);
+        }
+
+
+
+
+
+        function length_6(myString) {
+            return myString.length >= 6;
+        }
+
+        function pass(myString) {
+            return hasNumber(myString) && Cappital(myString) && length_6(myString);
+        }
+
+        function check() {
+            var check1 = document.getElementById("pass").value;
+            var check2 = document.getElementById("pass2").value;
+            if (check1 === check2)
+
+                if (pass(check1) && pass(check2))
+                    window.alert("congrat u got new password");
+                else
+                    window.alert("u enter the wrong one pls do again");
+            else window.alert("the password not match");
+        }
+    </script>
+</body>
+
+</html>
